@@ -19,7 +19,7 @@ ESPRIT School of Engineering · 4th-year Computer Engineering Program · Academi
 
 Modern applications are rarely a single program running on a single server. They are used from browsers, phones and
 desktop tools, they talk to partner systems, and they must keep working while thousands of people use them at the same
-time. **Distributed Web Applications** explores how such systems are designed: how their parts are separated, how they
+time. **Distributed Web Architecture** explores how such systems are designed: how their parts are separated, how they
 communicate, and which trade-offs come with each architectural choice.
 
 Throughout the module, a single running example, **JobBoard**, an online recruitment platform, helps connect the
