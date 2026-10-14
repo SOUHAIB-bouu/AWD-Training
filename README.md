@@ -1,6 +1,6 @@
 <div align="center">
 
-# Distributed Web Applications (AWD)
+# Distributed Web Architecture (AWD)
 
 **Course materials and problem-based learning activities**
 
