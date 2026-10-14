@@ -1,10 +1,10 @@
-# Distributed Web Applications (AWD) — Training Resources
+# Distributed Web Applications (AWD): Training Resources
 
 Course and workshop resources for the **Distributed Web Applications** module, from the monolith to Cloud Native architectures.
 
 Dr. Badia Bouhdid · ESPRIT School of Engineering · 2026–2027
 
-For an overview of the module, open [`index.html`](index.html).
+For an overview of the module, open [`presentation`](https://badi3a.github.io/AWD-Training/).
 
 ## Chapters
 
