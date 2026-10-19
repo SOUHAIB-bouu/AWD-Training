@@ -1,0 +1,23 @@
+# Chapitre 6 - RabbitMQ pour le JobBoard
+#   docker compose up -d       -> démarre RabbitMQ
+#   docker compose down        -> l'arrête (les messages sont conservés dans le volume)
+#   docker compose down -v     -> l'arrête ET efface les queues et les messages
+#
+# AMQP (applications)       : localhost:5672
+# Console d'administration  : http://localhost:15672   (utilisateur awd / mot de passe awd)
+services:
+  rabbitmq:
+    image: rabbitmq:4.3-management     # "-management" = image avec la console web
+    container_name: awd-rabbitmq
+    hostname: awd-rabbitmq             # nom de noeud fixe : les données du volume restent lisibles
+    ports:
+      - "5672:5672"                    # protocole AMQP 0-9-1
+      - "15672:15672"                  # console web + API HTTP de gestion
+    environment:
+      RABBITMQ_DEFAULT_USER: awd
+      RABBITMQ_DEFAULT_PASS: awd
+    volumes:
+      - rabbitmq-data:/var/lib/rabbitmq
+
+volumes:
+  rabbitmq-data:
