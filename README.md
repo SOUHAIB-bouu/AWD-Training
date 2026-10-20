@@ -47,9 +47,6 @@ git switch chapter-01
 
 ## Chapter 1 — Introduction to Distributed Architectures and SOA
 
-<p align="center">
-  <img src="https://github.com/badi3a/AWD-Training/blob/Chapter_01/slide1.png" alt="Chapter 1 title slide: Introduction to Distributed Architectures and SOA" width="720">
-</p>
 
 The first chapter sets the scene for the whole module. It follows the story of software architectures, from the
 mainframe era to today's cloud-native systems, and shows that each new style appeared as an answer to the limits of the
