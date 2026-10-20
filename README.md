@@ -10,6 +10,7 @@ ESPRIT School of Engineering · 4th-year Computer Engineering Program · Academi
 [![Academic year](https://img.shields.io/badge/academic%20year-2026--2027-A5559A)](#about-the-module)
 [![Approach](https://img.shields.io/badge/approach-problem--based%20learning-CB9EC5)](#how-we-learn-prosits)
 [![Language](https://img.shields.io/badge/language-English-555555)](#)
+[![Videos](https://img.shields.io/badge/videos-YouTube-FF0000?logo=youtube&logoColor=white)](#video-lectures)
 
 </div>
 
@@ -26,27 +27,42 @@ Throughout the module, a single running example, **JobBoard**, an online recruit
 concepts from one chapter to the next.
 
 ---
-
-## Repository organisation
-
-Each chapter lives in **its own branch**. The `main` branch is the entry point: it presents the module and points to
-the chapters as they become available.
-
-| [`chapter-01`](https://github.com/badi3a/AWD-Training/tree/chapter_01) | Introduction to Distributed Architectures and SOA | Course slides, Prosit 1 | Available |
-
-
 To open a chapter, select its branch on GitHub, or from a terminal:
 
 ```bash
 git clone https://github.com/badi3a/AWD-Training.git
 cd AWD-Training
-git switch chapter-01
+git switch Chapter_01
 ```
 
 ---
 
-## Chapter 1 — Introduction to Distributed Architectures and SOA
+## Video lectures
 
+Short animated videos with English subtitles and a built-in quiz. Click an image to watch on YouTube.
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://youtu.be/iXjr6Y1VT_c">
+        <img src="https://img.youtube.com/vi/iXjr6Y1VT_c/hqdefault.jpg" alt="The Invisible Evolution of Software Architecture" width="100%">
+      </a>
+      <br><b>The Invisible Evolution of Software Architecture</b>
+      <br><sub>Chapter 1 · 8 min · from the mainframe to cloud native</sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://youtu.be/Q3sVymW-3G0">
+        <img src="https://img.youtube.com/vi/Q3sVymW-3G0/hqdefault.jpg" alt="Inside a Monolith: MVC and the 3-Tier Architecture" width="100%">
+      </a>
+      <br><b>Inside a Monolith: MVC and the 3-Tier Architecture</b>
+      <br><sub>Prosit 1 · 7 min · JobBoard built with Symfony</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Chapter 1 — Introduction to Distributed Architectures and SOA
 
 The first chapter sets the scene for the whole module. It follows the story of software architectures, from the
 mainframe era to today's cloud-native systems, and shows that each new style appeared as an answer to the limits of the
@@ -63,6 +79,8 @@ By the end of the chapter, students will be able to:
 
 The message of the chapter is simple: there is no "best" architecture in absolute terms, only architectures that fit a
 given context.
+
+▶ **Watch:** [The Invisible Evolution of Software Architecture](https://youtu.be/iXjr6Y1VT_c) (8 min)
 
 ---
 
@@ -99,24 +117,49 @@ benefits and the costs of each option, and recommend what truly fits JobBoard's 
 > **A piece of advice:** do not start by choosing a technology. Start by understanding the problem, the constraints
 > and the qualities that matter.
 
-The full Prosit brief is available in the [`chapter-01`](https://github.com/badi3a/AWD-Training/blob/Chapter_01/AWD_Prosit1.pdf) branch.
+### 🎬 Watch before the opening session
 
----
+<div align="center">
 
-## Learning resources
+<a href="https://youtu.be/Q3sVymW-3G0">
+  <img src="https://img.youtube.com/vi/Q3sVymW-3G0/hqdefault.jpg" alt="Inside a Monolith: MVC and the 3-Tier Architecture" width="560">
+</a>
 
-- Course slides and interactive modules: available on the ESPRIT Blackboard space of the module.
-- Chapter materials and Prosit briefs: in the corresponding chapter branch of this repository.
+**Inside a Monolith: MVC and the 3-Tier Architecture** · 7 min ·<br>
+What happens between a click on "Apply" and the confirmation page? The video follows a request through JobBoard's
+MVC code and its three physical tiers, then sets the Prosit challenge without giving the answer.
+
+</div>
+
+The full Prosit brief is available in the [`Chapter_01`](https://github.com/badi3a/AWD-Training/blob/Chapter_01/AWD_Prosit1.pdf) branch.
 
 ---
 
 ## Instructor
 
-**Dr. Badia Bouhdid** — ESPRIT School of Engineering
-[badiaa.bouhdid@esprit.tn](mailto:badiaa.bouhdid@esprit.tn) · [LinkedIn](https://www.linkedin.com/in/badiabouhdid)
-
-This repository supports the **Distributed Web Applications** module at
-[ESPRIT School of Engineering](https://www.esprit.tn).
+<table>
+  <tr>
+    <td width="140" align="center" valign="top">
+      <img src="https://avatars.githubusercontent.com/u/12083408?s=240&v=4" alt="Dr. Badia Bouhdid" width="120">
+    </td>
+    <td valign="top">
+      <h3>Dr. Badia Bouhdid</h3>
+      <p>
+        Lecturer at <b>ESPRIT School of Engineering</b>, in charge of the
+        <b>Distributed Web Architecture (AWD)</b> module for 4th-year Computer Engineering students.
+      </p>
+      <p>
+        Teaching focus: software architecture, distributed systems, REST APIs and microservices,
+        through problem-based learning and a single running example, <b>JobBoard</b>.
+      </p>
+      <p>
+        <a href="mailto:badiaa.bouhdid@esprit.tn"><img src="https://img.shields.io/badge/Email-badiaa.bouhdid%40esprit.tn-7E0C6E?logo=gmail&logoColor=white" alt="Email"></a>
+        <a href="https://www.linkedin.com/in/badiabouhdid"><img src="https://img.shields.io/badge/LinkedIn-badiabouhdid-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+        <a href="https://github.com/badi3a"><img src="https://img.shields.io/badge/GitHub-badi3a-181717?logo=github&logoColor=white" alt="GitHub"></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
 <sub>Enjoy the journey into distributed systems.</sub>
