@@ -31,11 +31,12 @@ Their implementation with Spring Boot is covered in the dedicated module.
 
 <div align="center">
 
-<a href="https://youtu.be/VIDEO_ID">
-  <img src="https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg" alt="Web Services and REST APIs: Separating Front End and Back End" width="640">
+<a href="https://youtu.be/T0TmRpyaGoE">
+  <img src="https://img.youtube.com/vi/T0TmRpyaGoE/hqdefault.jpg" alt="Web Services and REST APIs: Separating Front End and Back End" width="640">
 </a>
 
-**Web Services & REST APIs: Separating Front End and Back End** · 7 min · English subtitles · built-in quiz
+**Web Services & REST APIs: Separating Front End and Back End** · 7 min · English subtitles · built-in quiz<br>
+▶ [Watch on YouTube](https://youtu.be/T0TmRpyaGoE)
 
 </div>
 
@@ -152,8 +153,6 @@ Interactive module (SCORM) and quizzes: on the ESPRIT Blackboard space of the mo
 
 ---
 
----
-
 ## Instructor
 
 <table>
@@ -183,4 +182,3 @@ Interactive module (SCORM) and quizzes: on the ESPRIT Blackboard space of the mo
 <div align="center">
 <sub>Enjoy the journey into distributed systems.</sub>
 </div>
-
