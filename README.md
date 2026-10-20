@@ -1,45 +1,35 @@
 <div align="center">
 
-# Distributed Web Architecture (AWD)
+# Chapter 1 — Introduction to Distributed Architectures and SOA
 
-**Course materials and problem-based learning activities**
+**Distributed Web Architecture (AWD)** · ESPRIT School of Engineering · 4th-year Computer Engineering · 2026–2027
 
-ESPRIT School of Engineering · 4th-year Computer Engineering Program · Academic year 2026–2027
-
-[![Module](https://img.shields.io/badge/module-AWD-7E0C6E)](#about-the-module)
-[![Academic year](https://img.shields.io/badge/academic%20year-2026--2027-A5559A)](#about-the-module)
-[![Approach](https://img.shields.io/badge/approach-problem--based%20learning-CB9EC5)](#how-we-learn-prosits)
-[![Language](https://img.shields.io/badge/language-English-555555)](#)
+[![Module](https://img.shields.io/badge/module-AWD-7E0C6E)](https://github.com/badi3a/AWD-Training)
+[![Chapter](https://img.shields.io/badge/chapter-01-A5559A)](#chapter-1--introduction-to-distributed-architectures-and-soa)
+[![Topic](https://img.shields.io/badge/topic-software%20architecture-CB9EC5)](#what-this-chapter-covers)
+[![Prosit](https://img.shields.io/badge/Prosit-1-FFB020)](#prosit-1--jobboard-a-monolith-facing-the-multi-device-challenge)
 [![Videos](https://img.shields.io/badge/videos-YouTube-FF0000?logo=youtube&logoColor=white)](#video-lectures)
 
 </div>
 
 ---
 
-## About the module
+## Why this chapter?
 
 Modern applications are rarely a single program running on a single server. They are used from browsers, phones and
 desktop tools, they talk to partner systems, and they must keep working while thousands of people use them at the same
-time. **Distributed Web Architecture** explores how such systems are designed: how their parts are separated, how they
-communicate, and which trade-offs come with each architectural choice.
+time.
 
-Throughout the module, a single running example, **JobBoard**, an online recruitment platform, helps connect the
-concepts from one chapter to the next.
+This first chapter sets the scene for the whole module. It follows the story of software architectures, from the
+mainframe era to today's cloud-native systems, and shows that **each new style appeared as an answer to the limits of
+the previous one**.
 
----
-To open a chapter, select its branch on GitHub, or from a terminal:
-
-```bash
-git clone https://github.com/badi3a/AWD-Training.git
-cd AWD-Training
-git switch Chapter_01
-```
+The message of the chapter is simple: there is no "best" architecture in absolute terms, only architectures that fit a
+given context.
 
 ---
 
 ## Video lectures
-
-Short animated videos with English subtitles and a built-in quiz. Click an image to watch on YouTube.
 
 <table>
   <tr>
@@ -48,7 +38,8 @@ Short animated videos with English subtitles and a built-in quiz. Click an image
         <img src="https://img.youtube.com/vi/iXjr6Y1VT_c/hqdefault.jpg" alt="The Invisible Evolution of Software Architecture" width="100%">
       </a>
       <br><b>The Invisible Evolution of Software Architecture</b>
-      <br><sub>Chapter 1 · 8 min · from the mainframe to cloud native</sub>
+      <br><sub>Course · 8 min · from the mainframe to cloud native</sub>
+      <br>▶ <a href="https://youtu.be/iXjr6Y1VT_c">Watch on YouTube</a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://youtu.be/Q3sVymW-3G0">
@@ -56,31 +47,40 @@ Short animated videos with English subtitles and a built-in quiz. Click an image
       </a>
       <br><b>Inside a Monolith: MVC and the 3-Tier Architecture</b>
       <br><sub>Prosit 1 · 7 min · JobBoard built with Symfony</sub>
+      <br>▶ <a href="https://youtu.be/Q3sVymW-3G0">Watch on YouTube</a>
     </td>
   </tr>
 </table>
 
+
+
 ---
 
-## Chapter 1 — Introduction to Distributed Architectures and SOA
+## Learning outcomes
 
-The first chapter sets the scene for the whole module. It follows the story of software architectures, from the
-mainframe era to today's cloud-native systems, and shows that each new style appeared as an answer to the limits of the
-previous one.
+By the end of this chapter, students will be able to:
 
-By the end of the chapter, students will be able to:
+1. **Explain** the evolution of software architectures.
+2. **Distinguish** the main architectural styles: monolith, N-tier, SOA and microservices.
+3. **Identify** the limits of a monolithic architecture as an application grows.
+4. **Understand** the basic principles of distributed systems.
+5. **Explain** the role of Web services in making applications work together.
+6. **Describe** the main ideas behind a RESTful architecture.
 
-- explain how software architectures have evolved over time;
-- distinguish the main architectural styles: **monolith**, **N-tier**, **SOA** and **microservices**;
-- identify the limits of a monolithic architecture as an application grows;
-- understand the basic principles of distributed systems;
-- explain the role of Web services in making applications work together;
-- describe the main ideas behind a **RESTful** architecture.
+---
 
-The message of the chapter is simple: there is no "best" architecture in absolute terms, only architectures that fit a
-given context.
+## What this chapter covers
 
-▶ **Watch:** [The Invisible Evolution of Software Architecture](https://youtu.be/iXjr6Y1VT_c) (8 min)
+| # | Section | Key ideas |
+| --- | --- | --- |
+| 1 | Introduction | What a software architecture is; the forces that make it evolve (needs, quality, organisation) |
+| 2 | Evolution of architectures | Mainframe → client/server → 3-tier → N-tier → SOA → microservices → cloud native |
+| 3 | The monolith and its limits | Strengths, then 7 structural limits: maintenance, coupling, deployment, scalability, availability, collaboration, technical debt |
+| 4 | Comparing architectures | Deployment unit, communication, data; which style for which context |
+| 5 | Distributed systems | Definitions, fundamental characteristics, transparency, synchronous vs asynchronous, CAP theorem |
+| 6 | Web services | Interoperability, publish–find–bind, SOAP · REST · GraphQL |
+| 7 | RESTful architecture | Resources and URIs, HTTP verbs, representations, the six REST constraints |
+| 8 | Summary | Key takeaways, self-assessment questions, references |
 
 ---
 
@@ -89,8 +89,6 @@ given context.
 Alongside the lectures, the module relies on **problem-based learning**. A *Prosit* is a realistic situation in which
 students, working in small teams, identify the problem, search for the knowledge they need, test their hypotheses and
 build a well-argued answer, with the guidance of a tutor.
-
-Each Prosit follows three steps:
 
 1. **Opening session** — discover the situation, define the keywords, state the problem and the hypotheses.
 2. **Self-directed work** — investigate, analyse and gather evidence as a team.
@@ -111,9 +109,6 @@ In this Prosit, students take on the role of an audit team. Their mission is to:
 - identify the limits it meets as new needs appear;
 - propose a gradual, well-justified direction for its evolution.
 
-The goal is not to jump to a fashionable solution, but to reason carefully: understand the problem first, weigh the
-benefits and the costs of each option, and recommend what truly fits JobBoard's situation.
-
 > **A piece of advice:** do not start by choosing a technology. Start by understanding the problem, the constraints
 > and the qualities that matter.
 
@@ -125,13 +120,43 @@ benefits and the costs of each option, and recommend what truly fits JobBoard's 
   <img src="https://img.youtube.com/vi/Q3sVymW-3G0/hqdefault.jpg" alt="Inside a Monolith: MVC and the 3-Tier Architecture" width="560">
 </a>
 
-**Inside a Monolith: MVC and the 3-Tier Architecture** · 7 min ·<br>
+**Inside a Monolith: MVC and the 3-Tier Architecture** · 7 min <br>
 What happens between a click on "Apply" and the confirmation page? The video follows a request through JobBoard's
-MVC code and its three physical tiers, then sets the Prosit challenge without giving the answer.
+MVC code and its three physical tiers, then sets the Prosit challenge without giving the answer.<br>
+▶ [Watch on YouTube](https://youtu.be/Q3sVymW-3G0)
 
 </div>
 
-The full Prosit brief is available in the [`Chapter_01`](https://github.com/badi3a/AWD-Training/blob/Chapter_01/AWD_Prosit1.pdf) branch.
+---
+
+## Resources in this branch
+
+| Resource | Description |
+| --- | --- |
+| [`AWD_Prosit1.pdf`](AWD_Prosit1.pdf) | Prosit 1 brief — JobBoard: a monolith facing the multi-device challenge |
+| `chapter_1_slides.pdf` | Course slides|
+
+Interactive module (SCORM) and quizzes: on the ESPRIT Blackboard space of the module.
+
+---
+
+## Previous and next
+
+- 🏠 [Module home page (main branch)](https://github.com/badi3a/AWD-Training)
+- ➡ [Chapter 2 — Web Services and REST APIs](https://github.com/badi3a/AWD-Training/tree/Chapter_02)
+  · video: [Web Services & REST APIs: Separating Front End and Back End](https://youtu.be/T0TmRpyaGoE)
+
+---
+
+## Main references
+
+- L. Bass, P. Clements, R. Kazman, *Software Architecture in Practice*, 4th ed., Addison-Wesley, 2021.
+- G. Coulouris, J. Dollimore, T. Kindberg, G. Blair, *Distributed Systems: Concepts and Design*, 5th ed., Pearson, 2011.
+- A. S. Tanenbaum, M. van Steen, *Distributed Systems*, 3rd ed., 2017.
+- T. Erl, *Service-Oriented Architecture: Concepts, Technology, and Design*, Prentice Hall, 2005.
+- S. Newman, *Building Microservices*, 2nd ed., O'Reilly, 2021.
+- R. T. Fielding, *Architectural Styles and the Design of Network-based Software Architectures*, PhD thesis, UC Irvine, 2000.
+- J. Lewis, M. Fowler, *Microservices*, martinfowler.com, 2014.
 
 ---
 
