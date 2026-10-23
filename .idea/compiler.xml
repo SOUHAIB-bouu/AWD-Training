@@ -11,17 +11,15 @@
         <module name="eureka" />
         <module name="ConfigServer" />
         <module name="Job" />
-        <module name="awd-monolith" />
         <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="candidat" target="17" />
+      <module name="awd-monolith" target="17" />
       <module name="canditature" target="17" />
       <module name="condidature" target="1.5" />
       <module name="discovery" target="17" />
       <module name="gateway" target="17" />
-      <module name="job" target="17" />
       <module name="meeting" target="1.5" />
     </bytecodeTargetLevel>
   </component>
